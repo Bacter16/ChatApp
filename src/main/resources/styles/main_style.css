@@ -1,0 +1,58 @@
+/* main_style.css */
+
+/* Dark gray background for the left sidebar */
+.dark-gray-background {
+    -fx-background-color: #46474A;
+}
+
+/* Light gray background for the chat box */
+.chatBoxStyle {
+    /*-fx-background-color: #fafafa;*/
+}
+
+/* Light gray background for list views */
+.friendsListStyle, .messageListStyle {
+    /*-fx-control-inner-background: #2358bb;*/
+}
+
+/* Add more styles as needed based on your requirements */
+
+/* main_style.css */
+
+/* Style for each message in the list */
+.list-cell {
+    /*-fx-background-color: #b23434; !* White background color for messages *!*/
+    -fx-padding: 10px; /* Add some padding around messages */
+    -fx-background-radius: 10px; /* Round the corners of messages */
+    /*-fx-border-color: #7c4848; !* Light gray border color *!*/
+    -fx-border-radius: 10px; /* Round the corners of the border */
+    -fx-border-width: 1px; /* Set border width */
+}
+
+/*.list-cell:has-content {*/
+/*    -fx-border-color: transparent; !* Make the border invisible if there is content *!*/
+/*}*/
+
+/* Label style for the reply label */
+.replyLabelStyle {
+    -fx-background-color: #ffffff; /* White background color for the reply label */
+    -fx-padding: 5px; /* Add some padding around the reply label */
+    -fx-background-radius: 5px; /* Round the corners of the reply label */
+    -fx-border-color: #e0e0e0; /* Light gray border color */
+    -fx-border-radius: 5px; /* Round the corners of the border */
+    -fx-border-width: 1px; /* Set border width */
+}
+
+/* White background for the message input field */
+.messageFieldStyle {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-background-radius: 5px; /* Round the corners of the message input field */
+    -fx-border-radius: 5px; /* Round the corners of the border */
+}
+
+/* Change border color when the message input field is focused */
+.messageFieldStyle:focused {
+    -fx-border-color: #0095f6; /* Instagram blue */
+}
+
